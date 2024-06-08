@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 5500;
 app.use(bodyParser.json());
 app.use(cors());
 
+
 const dogRouter = require('./routes/dog.route');
 const catRouter = require('./routes/cat.route');
 const birdRouter = require('./routes/bird.route');

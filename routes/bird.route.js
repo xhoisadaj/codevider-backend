@@ -1,6 +1,6 @@
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
 const Bird = require('../models/bird.model');
-
 
 // Get all birds or search birds
 router.route('/').get(async (req, res) => {
@@ -23,15 +23,16 @@ router.route('/').get(async (req, res) => {
 
 
 // Add a new bird
-router.route('/add').post((req, res) => {
+router.post('/add', (req, res) => {
     const { name, species, family, habitat, place_of_found, diet, description, wingspan_cm, weight_kg, image } = req.body;
-    
+
     const newBird = new Bird({ name, species, family, habitat, place_of_found, diet, description, wingspan_cm, weight_kg, image });
 
     newBird.save()
         .then(() => res.json('Bird added!'))
         .catch(err => res.status(400).json('Error: ' + err));
 });
+
 
 // Get a bird by ID
 router.route('/:id').get((req, res) => {
