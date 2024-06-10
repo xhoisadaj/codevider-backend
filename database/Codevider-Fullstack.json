@@ -1,0 +1,156 @@
+[
+    {
+        "_id": "6666356d29a1022753429924",
+        "name": "Boxer",
+        "breed_group": "Working",
+        "size": "Medium to Large",
+        "lifespan": "10-12 years",
+        "origin": "Germany",
+        "temperament": "Playful, Intelligent, Loyal",
+        "colors": [
+            "Fawn",
+            "Brindle"
+        ],
+        "description": "The Boxer is a playful and energetic breed known for its athleticism and devotion to family. They are excellent watchdogs and are known for their affectionate and protective nature.",
+        "image": "https://fakeimg.pl/500x500/cc6641",
+        "__v": 0
+    },
+    {
+        "_id": "666635aa29a1022753429928",
+        "name": "Siberian Husky",
+        "breed_group": "Working",
+        "size": "Medium",
+        "lifespan": "12-14 years",
+        "origin": "Russia",
+        "temperament": "Friendly, Outgoing, Gentle",
+        "colors": [
+            "Black",
+            "Gray",
+            "Red",
+            "Sable"
+        ],
+        "description": "The Siberian Husky is a beautiful and energetic breed known for its striking appearance and friendly nature. They have a thick double coat that helps them endure cold weather, making them great sled dogs and outdoor companions.",
+        "image": "https://fakeimg.pl/500x500/cc6642",
+        "__v": 0
+    },
+    {
+        "_id": "666635fd29a1022753429938",
+        "name": "Doberman Pinscher",
+        "breed_group": "Working",
+        "size": "Large",
+        "lifespan": "10-13 years",
+        "origin": "Germany",
+        "temperament": "Fearless, Energetic, Alert",
+        "colors": [
+            "Black",
+            "Blue",
+            "Fawn",
+            "Red"
+        ],
+        "description": "The Doberman Pinscher is a powerful and loyal breed known for its protective nature and intelligence. They are often used as guard dogs and police dogs due to their alertness and trainability.",
+        "image": "https://fakeimg.pl/500x500/cc6643",
+        "__v": 0
+    },
+    {
+        "_id": "6666336729a1022753429914",
+        "name": "British Shorthair",
+        "origin": "United Kingdom",
+        "temperament": "Easygoing, Affectionate, Independent",
+        "colors": [
+            "Blue",
+            "Black",
+            "White",
+            "Cream"
+        ],
+        "description": "The British Shorthair cat is a sturdy and independent breed known for its dense coat and round face. They are adaptable and get along well with other pets.",
+        "image": "https://fakeimg.pl/500x500/cc5588",
+        "__v": 0
+    },
+    {
+        "_id": "666633fd29a1022753429916",
+        "name": "Russian Blue",
+        "origin": "Russia",
+        "temperament": "Reserved, Gentle, Intelligent",
+        "colors": [
+            "Blue",
+            "Silver"
+        ],
+        "description": "The Russian Blue cat is a reserved and gentle breed known for its plush blue coat and striking green eyes. They are intelligent and form strong bonds with their human families.",
+        "image": "https://fakeimg.pl/500x500/cc5599",
+        "__v": 0
+    },
+    {
+        "_id": "6666342629a1022753429919",
+        "name": "Egyptian Mau",
+        "origin": "Egypt",
+        "temperament": "Active, Agile, Playful",
+        "colors": [
+            "Silver",
+            "Bronze",
+            "Smoke",
+            "Black"
+        ],
+        "description": "The Egyptian Mau is a medium-sized breed known for its spotted coat and striking green eyes. They are active and enjoy interactive play, often being compared to small leopards.",
+        "image": "https://fakeimg.pl/500x500/cc5600",
+        "__v": 0
+    },
+    {
+        "_id": "6666343e29a102275342991b",
+        "name": "Turkish Van",
+        "origin": "Turkey",
+        "temperament": "Playful, Intelligent, Energetic",
+        "colors": [
+            "White",
+            "Red",
+            "Cream",
+            "Black"
+        ],
+        "description": "The Turkish Van cat is an energetic and playful breed known for its love of water and swimming. They are intelligent and enjoy interactive toys and puzzles.",
+        "image": "https://fakeimg.pl/500x500/cc5622",
+        "__v": 0
+    },
+    {
+        "_id": "6666346c29a102275342991f",
+        "name": "Cornish Rex",
+        "origin": "United Kingdom",
+        "temperament": "Active, Curious, Affectionate",
+        "colors": [
+            "White",
+            "Black",
+            "Blue",
+            "Red"
+        ],
+        "description": "The Cornish Rex cat is an active and affectionate breed known for its soft and curly coat. They are social cats that enjoy being around people and other pets.",
+        "image": "https://fakeimg.pl/500x500/cc5633",
+        "__v": 0
+    },
+        
+    {
+        "_id": "666632fb29a1022753429908",
+        "name": "Albatross",
+        "species": "Diomedeidae",
+        "family": "Diomedeidae",
+        "habitat": "Oceanic Regions",
+        "place_of_found": "Southern Ocean",
+        "diet": "Carnivore",
+        "description": "Albatrosses are large seabirds known for their long wingspans and impressive gliding abilities.",
+        "wingspan_cm": 340,
+        "weight_kg": 8.5,
+        "image": "https://fakeimg.pl/500x500/cc7707",
+        "__v": 0
+    },
+    {
+        "_id": "6666331129a102275342990a",
+        "name": "Toucanet",
+        "species": "Aulacorhynchus",
+        "family": "Ramphastidae",
+        "habitat": "Rainforests",
+        "place_of_found": "Central and South America",
+        "diet": "Fruits and Insects",
+        "description": "Toucanets are small, colorful birds related to toucans and known for their vibrant plumage.",
+        "wingspan_cm": 40,
+        "weight_kg": 0.2,
+        "image": "https://fakeimg.pl/500x500/cc7711",
+        "__v": 0
+    }
+]
