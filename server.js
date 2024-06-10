@@ -7,8 +7,8 @@ const app = express();
 const PORT = process.env.PORT || 5500;
 
 // Middleware
-app.use(bodyParser.json());
-app.use(cors());
+app.use(cors()); // Enable CORS for all routes
+app.use(bodyParser.json({ limit: '10mb' })); // Increase the request payload size limit
 
 // Import routes
 const dogRouter = require('./routes/dog.route');
@@ -21,7 +21,10 @@ app.use('/cats', catRouter);
 app.use('/birds', birdRouter);
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://root:root@codevider-fullstack.ht2s86s.mongodb.net/?retryWrites=true&w=majority&appName=Codevider-Fullstack');
+mongoose.connect('mongodb+srv://root:root@codevider-fullstack.ht2s86s.mongodb.net/?retryWrites=true&w=majority&appName=Codevider-Fullstack', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
 const connection = mongoose.connection;
 
 connection.once('open', () => {
